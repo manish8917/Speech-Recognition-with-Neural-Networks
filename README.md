@@ -13,7 +13,7 @@ We begin by investigating the [LibriSpeech dataset](http://www.openslr.org/12/) 
 
 ## Project Instructions
 
-### Amazon Web Services
+### GPU Requirement
 
 This project requires GPU acceleration to run efficiently. Please refer to the Udacity instructions for setting up a GPU instance for this project, and refer to the project instructions in the classroom for setup. [link for AIND students](https://classroom.udacity.com/nanodegrees/nd889/parts/4550d1eb-a3e0-4e9b-9d3c-4f55aa6662b5/modules/c8419a1e-acd3-4463-9c01-a4c93f7c3b24/lessons/b27e9b6a-bb3b-4f3e-8993-bdfcb662a426/concepts/61c0743f-22f1-47db-a4d2-5616c25fc888)
 
@@ -151,20 +151,14 @@ jupyter notebook vui_notebook.ipynb
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
 
-### Evaluation
-
-Your project will be reviewed by a Udacity reviewer against the CNN project [rubric](#rubric).  Review this rubric thoroughly, and self-evaluate your project before submission.  All criteria found in the rubric must meet specifications for you to pass.
-
-
 ### Project Submission
 
-When you are ready to submit your project, collect the following files and compress them into a single archive for upload:
+When ready to submit project, collect the following files and compress them into a single archive for upload:
 - The `vui_notebook.ipynb` file with fully functional code, all code cells executed and displaying output, and all questions answered.
 - An HTML or PDF export of the project notebook with the name `report.html` or `report.pdf`.
 - The `sample_models.py` file with all model architectures that were trained in the project Jupyter notebook.
 - The `results/` folder containing all HDF5 and pickle files corresponding to trained models.
 
-Alternatively, your submission could consist of the GitHub link to your repository.
 
 
 <a id='rubric'></a>
